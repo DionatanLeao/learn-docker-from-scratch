@@ -1,0 +1,8 @@
+docker run hello-world
+docker ps
+docker ps -a
+docker run ubuntu
+docker run -i ubuntu bash
+docker run -it ubuntu bash
+docker run nginx
+docker run -p 8080:80 nginx
