@@ -6,3 +6,10 @@ docker run -i ubuntu bash
 docker run -it ubuntu bash
 docker run nginx
 docker run -p 8080:80 nginx
+docker exec silly_goodall ls
+docker exec it silly_goodall bash
+docker run -p 8080:80 -v $(pwd)/html:/usr/share/nginx/html nginx
+docker build -t latest .
+docker compose up
+docker compose up -d
+docker compose down
